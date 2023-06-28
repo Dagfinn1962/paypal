@@ -9,8 +9,8 @@ paypal
         body: JSON.stringify({
           cart: [
             {
-              sku: "<YOUR_PRODUCT_STOCK_KEEPING_UNIT>",
-              quantity: "<YOUR_PRODUCT_QUANTITY>",
+              sku: "<P-4SL7615793507620SMR6QQ4A>",
+              quantity: "<1>",
             },
           ],
         }),
@@ -60,8 +60,8 @@ if (paypal.HostedFields.isEligible()) {
         body: JSON.stringify({
           cart: [
             {
-              sku: "<YOUR_PRODUCT_STOCK_KEEPING_UNIT>",
-              quantity: "<YOUR_PRODUCT_QUANTITY>",
+             sku: "<P-4SL7615793507620SMR6QQ4A>",
+              quantity: "<1>",
             },
           ],
         }),
